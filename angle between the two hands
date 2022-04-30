@@ -1,0 +1,7 @@
+#angle between two hands of the clock
+x=float(input("input the hours ex:- 04 or 12, range will be from 0 to 12"))
+y=float(input("input the minutes x:- 00 or 60, range will be from 0 to 59"))
+angleh=x*30+y*0.5
+anglem=6*y
+e=abs(angleh-anglem)
+print(e,"degree is the smallest angle between two hands of the clock")
